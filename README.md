@@ -4,6 +4,7 @@ Using AWS WAF rate-based rules, you can block connections from IP addresses that
 Lambda runs on Python 3.8, please use Event Bridge with a rate (1 minute) or something similar.
 
 # Blog
+https://dev.classmethod.jp/articles/add-ratebase-rule-deny-ip/
 
 # Lambda environment variable
 - IPSETRULE_ID

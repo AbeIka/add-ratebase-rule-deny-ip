@@ -6,9 +6,9 @@ Lambda runs on Python 3.8, please use Event Bridge with a rate (1 minute) or som
 # Blog
 
 # Lambda environment variable
-IPSETRULE_ID
-IPSETRULE_NAME
-RATEBASERULE_NAME
-WEBACL_ID
-WEBACL_NAME
-WEBACL_SCOPE
+- IPSETRULE_ID
+- IPSETRULE_NAME
+- RATEBASERULE_NAME
+- WEBACL_ID
+- WEBACL_NAME
+- WEBACL_SCOPE

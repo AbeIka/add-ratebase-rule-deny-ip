@@ -38,9 +38,9 @@ def lambda_handler(event, context):
         print("The current IP Sets are as follows")
         print(IPSets)
         
-        # レートベースルールでブロックしているかつ、IP Setに登録されていないIPリストを作成する 
+        #  Create a list of IPs that are blocked by rate-based rules and are not registered in the IP Set 
         addIPList = list(set(responseAddips) - set(IPSets))
-        # IPリストの重複を削除
+        # Remove duplicates from IP list
         addIPList=list(set(addIPList))
         
         # If the IP being blocked by the rate-based rule is already registered in IPSet, it will be terminated
